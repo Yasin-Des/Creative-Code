@@ -4,6 +4,7 @@ screen = t.Screen()
 t.speed(0)
 t.hideturtle()
 
+
 def draw_clock_face():
     for i in range(1, 13):
         angle = 90 + (i * -30)
